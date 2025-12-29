@@ -104,10 +104,3 @@ INSERT INTO Payments (CustomerID  , Amount  ,PaymentDate  , Resualt)
   END CATCH
 END
 GO 
-
-
-DECLARE @CustomerID nchar(5) = N'ALFKI' 
-DECLARE @Amount money = 1000.00
-DECLARE @PaymentDate datetime = GETDATE()
-DECLARE @Resualt nvarchar(200)
-
